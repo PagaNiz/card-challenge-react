@@ -9,11 +9,11 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<PaginaBase />}>
           <Route index element={<Inicio />} />
-          <Route path="concluido" element={<Concluido/>}/>
+          <Route path="concluido" element={<Concluido />} />
         </Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
 export default AppRoutes;

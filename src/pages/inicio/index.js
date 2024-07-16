@@ -1,10 +1,7 @@
 import Form from "../../components/Form";
 
-
 const Inicio = () => {
-    return (
-        <Form />
-    )
-}
+  return <Form />;
+};
 
 export default Inicio;

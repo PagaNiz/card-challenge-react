@@ -1,78 +1,77 @@
 @import "../../stylesVariables/colors";
 
-.cardBackContainer{  
-        img{
-            position: absolute;
-        }
-        .cardBackCVV{
-            position: relative;
-            top: 115px;
-            left: 300px;
-            width: 50px;
-            color: $white;
-        }
-}
-
-.cardFrontContainer{
-    .creditNum{
-        position: absolute;
-        z-index: 1;
-        top: 148px;
-        left: 50px;
-        font-size: 1.6rem;
-        color: $white;
-    }
-    .nameInput{
-        position: absolute;
-        z-index: 1;
-        top: 100%;
-        left: 50px;
-        font-size: 0.9rem;
-        color: $white;
-    }
-    .expMMInput{
-        position: absolute;
-        z-index: 1;
-        top: 100%;
-        left: 325px;
-        font-size: 0.9rem;
-        color: $white;
-    }
-    .barDiv{
-        position: absolute;
-        z-index: 1;
-        top: 99%;
-        left: 345px;
-        font-size: 0.9rem;
-        color: $white;
-    }
-    .expYYInput{
-        position: absolute;
-        z-index: 1;
-        top: 100%;
-        left: 350px;
-        font-size: 0.9rem;
-        color: $white;
-    }
-}
-
-.cardContainerMain{
+.cardBackContainer {
+  img {
+    position: absolute;
+  }
+  .cardBackCVV {
     position: relative;
-    height: 100vh;
-    .cardFrontContainerChild{
-        position: absolute;
-        width: 350px;
-        height: 200px;
-        border-radius: 8px;
-        top: 20%;
-        left: -7rem;
-    }
-    .cardBackContainerChild{
-        position: absolute;
-        width: 350px;
-        height: 200px;
-        border-radius: 8px;
-        top: 50%;
-    }
+    top: 115px;
+    left: 300px;
+    width: 50px;
+    color: $white;
+  }
 }
 
+.cardFrontContainer {
+  .creditNum {
+    position: absolute;
+    z-index: 1;
+    top: 148px;
+    left: 50px;
+    font-size: 1.6rem;
+    color: $white;
+  }
+  .nameInput {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50px;
+    font-size: 0.9rem;
+    color: $white;
+  }
+  .expMMInput {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 325px;
+    font-size: 0.9rem;
+    color: $white;
+  }
+  .barDiv {
+    position: absolute;
+    z-index: 1;
+    top: 99%;
+    left: 345px;
+    font-size: 0.9rem;
+    color: $white;
+  }
+  .expYYInput {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 350px;
+    font-size: 0.9rem;
+    color: $white;
+  }
+}
+
+.cardContainerMain {
+  position: relative;
+  height: 100vh;
+  .cardFrontContainerChild {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    top: 20%;
+    left: -7rem;
+  }
+  .cardBackContainerChild {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    top: 50%;
+  }
+}

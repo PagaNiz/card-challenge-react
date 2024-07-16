@@ -1,37 +1,37 @@
-.form{
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .doubleInputContainer {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    .doubleInputContainer{
-        display: flex;
-        gap: 2.5rem;
-        .EXPDateContainer{
-            display: flex;
-            gap: 5px;
-            width: 150px;
-        }
+    gap: 2.5rem;
+    .EXPDateContainer {
+      display: flex;
+      gap: 5px;
+      width: 150px;
     }
+  }
 }
 
-input{
-    width: 100%;
-    font-size: 24px;
-    border: 0.5px solid rgba(77, 77, 77, 0.65);
-    border-radius: 10px;
-    margin-top: 5px;
-    padding: 5px;
-    color: #21092F;
-    &:focus{
-        outline-color: #6448fe;
-        outline-style: double;
-    }
-    &::placeholder{
-        color: rgba(0, 0, 0, 0.3);
-    }
+input {
+  width: 100%;
+  font-size: 24px;
+  border: 0.5px solid rgba(77, 77, 77, 0.65);
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  color: #21092f;
+  &:focus {
+    outline-color: #6448fe;
+    outline-style: double;
+  }
+  &::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
 }
 
-label{
-    font-weight: bold;
-    font-size: medium;
-    color: #21092f;
+label {
+  font-weight: bold;
+  font-size: medium;
+  color: #21092f;
 }
